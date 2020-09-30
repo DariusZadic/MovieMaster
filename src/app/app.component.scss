@@ -1,0 +1,11 @@
+.movie-title {
+  color: blue;
+}
+app-movie {
+  background-color: green;
+  &::ng-deep {
+    .movie-title {
+      color: green;
+    }
+  }
+}
